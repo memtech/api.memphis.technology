@@ -28,3 +28,9 @@ composer install
 ```
 bower install
 ```
+
+You will need to [register an oath consumer](https://secure.meetup.com/meetup_api/oauth_consumers/create/) and add the keys to the application.
+
+Currently Meetup's API does not recgonize .technology TLDs. I've raised an [issue](https://github.com/meetup/api/issues/23). Looks like this is on hold for now.
+
+Might be able to put the API on another domain and still consume it via json on http://memphis.technology
